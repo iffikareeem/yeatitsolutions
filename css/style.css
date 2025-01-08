@@ -1,4 +1,3 @@
-/********** Template CSS **********/
 :root {
     --primary: #65B530;
     --secondary: #9B9B9B;
@@ -107,6 +106,12 @@
     font-weight: 900;
     vertical-align: middle;
     margin-left: 8px;
+}
+
+.navbar-brand img {
+    background: #000000d9;
+    padding: 6px;
+    border-radius: 7px;
 }
 
 @media (max-width: 991.98px) {
@@ -563,4 +568,42 @@
     color: var(--primary);
     letter-spacing: 1px;
     box-shadow: none;
+}
+
+
+.wp-button{
+	margin-top:14px;
+}
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:35px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+
+._tiktok svg {
+    width: 17px;
+    fill: #959494;
+}
+
+
+._tiktok:hover svg {
+    fill: #1a1a1a;
+}
+
+.navbar ._tiktok svg {
+    fill: #049404cf;
+}
+
+.navbar ._tiktok:hover svg {
+    fill: white;
 }
