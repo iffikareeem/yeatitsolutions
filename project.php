@@ -307,9 +307,9 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-light mb-4">Quick Links</h5>
-                    <a class="btn btn-link" href="">About Us</a>
-                    <a class="btn btn-link" href="">Contact Us</a>
-                    <a class="btn btn-link" href="">Our Services</a>
+                    <a class="btn btn-link" href="about">About Us</a>
+                    <a class="btn btn-link" href="contact">Contact Us</a>
+                    <a class="btn btn-link" href="service">Our Services</a>
                     <a class="btn btn-link" href="">Terms & Condition</a>
                     <a class="btn btn-link" href="">Support</a>
                 </div>
