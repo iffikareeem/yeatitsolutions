@@ -211,13 +211,13 @@
                         </a>    
                     </p>
                     <div class="d-flex pt-2">
-                        <a class="btn btn-square btn-outline-secondary rounded-circle me-2" href="https://www.instagram.com/yea_it_technical_solutions?igsh=anE3MW5reTE2bGV1">
+                        <a class="btn btn-square btn-outline-secondary rounded-circle me-2" href="https://www.instagram.com/yea_it_technical_solutions?igsh=anE3MW5reTE2bGV1" target="_blank">
                             <i class="fab fa-instagram"></i></a>
-                        <a class="btn btn-square btn-outline-secondary rounded-circle me-2" href="https://www.facebook.com/share/18uNz14QkR/">
+                        <a class="btn btn-square btn-outline-secondary rounded-circle me-2" href="https://www.facebook.com/share/18uNz14QkR/" target="_blank">
                             <i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square btn-outline-secondary rounded-circle me-2" href="https://youtube.com/@yea-it-technicalsolutions?si=Uj0GPhctYFlnW2Gb">
+                        <a class="btn btn-square btn-outline-secondary rounded-circle me-2" href="https://youtube.com/@yea-it-technicalsolutions?si=Uj0GPhctYFlnW2Gb" target="_blank">
                             <i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-square btn-outline-secondary rounded-circle me-2" href="https://www.linkedin.com/company/yea-technical-solutions/">
+                        <a class="btn btn-square btn-outline-secondary rounded-circle me-2" href="https://www.linkedin.com/company/yea-technical-solutions/" target="_blank">
                             <i class="fab fa-linkedin-in"></i></a>
                         <a class="btn btn-square btn-outline-secondary rounded-circle me-2 _tiktok" href="https://www.tiktok.com/@yeaittechnicalsolutions" target="_blank">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" >
