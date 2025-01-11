@@ -89,7 +89,7 @@
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 px-4 px-lg-5">
-        <a href="index.html" class="navbar-brand d-flex align-items-center">
+        <a href="index" class="navbar-brand d-flex align-items-center">
             <img src="img/logo.png" alt="YEA-Technical Logo" class="img-fluid" style="height: 60px;">
         </a>
         <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -97,12 +97,12 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-4 py-lg-0">
-                <a href="index.html" class="nav-item nav-link active">Home</a>
-                <a href="about.html" class="nav-item nav-link">About</a>
-                <a href="service.html" class="nav-item nav-link">Service</a>
-                <a href="project.html" class="nav-item nav-link">Project</a>
+                <a href="index" class="nav-item nav-link active">Home</a>
+                <a href="about" class="nav-item nav-link">About</a>
+                <a href="service" class="nav-item nav-link">Service</a>
+                <a href="project" class="nav-item nav-link">Project</a>
                 </div>
-                <a href="contact.html" class="nav-item nav-link">Contact</a>
+                <a href="contact" class="nav-item nav-link">Contact</a>
             </div>
             <div class="h-100 d-lg-inline-flex align-items-center d-none">
                 <a class="btn btn-square rounded-circle bg-light text-primary me-2" href="https://www.instagram.com/yea_it_technical_solutions?igsh=anE3MW5reTE2bGV1" target="_blank">

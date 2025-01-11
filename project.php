@@ -88,7 +88,7 @@
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 px-4 px-lg-5">
-        <a href="index.html" class="navbar-brand d-flex align-items-center">
+        <a href="index" class="navbar-brand d-flex align-items-center">
             <img src="img/logo.png" alt="YEA-Technical Logo" class="img-fluid" style="height: 60px;">
         </a>
         <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -96,12 +96,12 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-4 py-lg-0">
-                <a href="index.html" class="nav-item nav-link">Home</a>
-                <a href="about.html" class="nav-item nav-link">About</a>
-                <a href="service.html" class="nav-item nav-link active">Service</a>
-                <a href="project.html" class="nav-item nav-link">Project</a>
+                <a href="index" class="nav-item nav-link">Home</a>
+                <a href="about" class="nav-item nav-link">About</a>
+                <a href="service" class="nav-item nav-link">Service</a>
+                <a href="project" class="nav-item nav-link active">Project</a>
                 </div>
-                <a href="contact.html" class="nav-item nav-link">Contact</a>
+                <a href="contact" class="nav-item nav-link">Contact</a>
             </div>
             <div class="h-100 d-lg-inline-flex align-items-center d-none">
                 <a class="btn btn-square rounded-circle bg-light text-primary me-2" href="https://www.instagram.com/yea_it_technical_solutions?igsh=anE3MW5reTE2bGV1">
@@ -126,12 +126,12 @@
     <!-- Page Header Start -->
     <div class="container-fluid page-header py-5 mb-5">
         <div class="container py-5">
-            <h1 class="display-3 text-white mb-3 animated slideInDown">Services</h1>
+            <h1 class="display-3 text-white mb-3 animated slideInDown">Projects</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
                     <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
-                    <li class="breadcrumb-item text-white active" aria-current="page">Services</li>
+                    <li class="breadcrumb-item text-white active" aria-current="page">Projects</li>
                 </ol>
             </nav>
         </div>
@@ -139,58 +139,129 @@
     <!-- Page Header End -->
 
 
-    <!-- Service Start -->
+    <!-- Projects Start -->
     <div class="container-xxl py-5">
         <div class="container">
-            <div class="text-center">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                 <div class="bg-primary mb-3 mx-auto" style="width: 60px; height: 2px;"></div>
-                <h1 class="display-5 mb-5">Our Services</h1>
+                <h1 class="display-5 mb-5">Our Projects</h1>
             </div>
-            <div class="row g-0 service-row">
-                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
-                    <div class="service-item border h-100 p-5">
-                        <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
-                            <img class="img-fluid" src="img/icon/icon-6.png" alt="Icon">
+            <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-12 text-center">
+                    <ul class="list-inline mb-5" id="portfolio-flters">
+                        <li class="mx-2 active" data-filter="*">All</li>
+                        <li class="mx-2" data-filter=".first">Complete Projects</li>
+                        <li class="mx-2" data-filter=".second">Ongoing Projects</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row g-4 portfolio-container">
+                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="portfolio-inner">
+                        <img class="img-fluid w-100" src="img/portfolio-1.jpg" alt="">
+                        <div class="text-center p-4">
+                            <p class="text-primary mb-2">Business Security</p>
+                            <h5 class="lh-base mb-0">Smart CCTV Security Systems That Fits Your Business</h5>
                         </div>
-                        <h4 class="mb-3">Commercial CCTV System</h4>
-                        <p class="mb-4">Our Best security camera systems for business</p>
-                        <a class="btn" href=""><i class="fa fa-arrow-right text-white me-3"></i>Read More</a>
+                        <div class="portfolio-text text-center bg-white p-4">
+                            <p class="text-primary mb-2">Business Security</p>
+                            <h5 class="lh-base mb-3">Smart CCTV Security Systems That Fits Your Business</h5>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="img/portfolio-1.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
-                    <div class="service-item border h-100 p-5">
-                        <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
-                            <img class="img-fluid" src="img/icon/icon-8.png" alt="Icon">
+                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="portfolio-inner">
+                        <img class="img-fluid w-100" src="img/portfolio-2.jpg" alt="">
+                        <div class="text-center p-4">
+                            <p class="text-primary mb-2">Fire Detection</p>
+                            <h5 class="lh-base mb-0">Smart CCTV Security Systems That Fits Your Business</h5>
                         </div>
-                        <h4 class="mb-3">Finger Print Access</h4>
-                        <p class="mb-4">Our best Service In The Fingerprint Terminals integrate multiple verification methods,</p>
-                        <a class="btn" href=""><i class="fa fa-arrow-right text-white me-3"></i>Read More</a>
+                        <div class="portfolio-text text-center bg-white p-4">
+                            <p class="text-primary mb-2">Fire Detection</p>
+                            <h5 class="lh-base mb-3">Smart CCTV Security Systems That Fits Your Business</h5>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="img/portfolio-2.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="service-item border h-100 p-5">
-                        <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
-                            <img class="img-fluid" src="img/icon/icon-9.png" alt="Icon">
+                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="portfolio-inner">
+                        <img class="img-fluid w-100" src="img/portfolio-3.jpg" alt="">
+                        <div class="text-center p-4">
+                            <p class="text-primary mb-2">Access Control</p>
+                            <h5 class="lh-base mb-0">Smart CCTV Security Systems That Fits Your Business</h5>
                         </div>
-                        <h4 class="mb-3">Fire Detection And Safety</h4>
-                        <p class="mb-4">We provide some of the best fire detection and alarm systems</p>
-                        <a class="btn" href=""><i class="fa fa-arrow-right text-white me-3"></i>Read More</a>
+                        <div class="portfolio-text text-center bg-white p-4">
+                            <p class="text-primary mb-2">Access Control</p>
+                            <h5 class="lh-base mb-3">Smart CCTV Security Systems That Fits Your Business</h5>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="img/portfolio-3.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
-                    <div class="service-item border h-100 p-5">
-                        <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
-                            <img class="img-fluid" src="img/icon/icon-3.png" alt="Icon">
+                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="portfolio-inner">
+                        <img class="img-fluid w-100" src="img/portfolio-4.jpg" alt="">
+                        <div class="text-center p-4">
+                            <p class="text-primary mb-2">Alarm Systems</p>
+                            <h5 class="lh-base mb-0">Smart CCTV Security Systems That Fits Your Business</h5>
                         </div>
-                        <h4 class="mb-3">Smart Home Security</h4>
-                        <p class="mb-4">Protect and secure your home with our collection of Somfy home security systems.</p>
-                        <a class="btn" href=""><i class="fa fa-arrow-right text-white me-3"></i>Read More</a>
+                        <div class="portfolio-text text-center bg-white p-4">
+                            <p class="text-primary mb-2">Alarm Systems</p>
+                            <h5 class="lh-base mb-3">Smart CCTV Security Systems That Fits Your Business</h5>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="img/portfolio-4.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="portfolio-inner">
+                        <img class="img-fluid w-100" src="img/portfolio-5.jpg" alt="">
+                        <div class="text-center p-4">
+                            <p class="text-primary mb-2">CCTV & Video</p>
+                            <h5 class="lh-base mb-0">Smart CCTV Security Systems That Fits Your Business</h5>
+                        </div>
+                        <div class="portfolio-text text-center bg-white p-4">
+                            <p class="text-primary mb-2">CCTV & Video</p>
+                            <h5 class="lh-base mb-3">Smart CCTV Security Systems That Fits Your Business</h5>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="img/portfolio-5.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="portfolio-inner">
+                        <img class="img-fluid w-100" src="img/portfolio-6.jpg" alt="">
+                        <div class="text-center p-4">
+                            <p class="text-primary mb-2">Smart Home</p>
+                            <h5 class="lh-base mb-0">Smart CCTV Security Systems That Fits Your Business</h5>
+                        </div>
+                        <div class="portfolio-text text-center bg-white p-4">
+                            <p class="text-primary mb-2">Smart Home</p>
+                            <h5 class="lh-base mb-3">Smart CCTV Security Systems That Fits Your Business</h5>
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="img/portfolio-6.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Service End -->
+    <!-- Projects End -->
         
 
     <!-- Footer Start -->
@@ -261,7 +332,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a class="border-bottom" href="#">Yea IT Solutions</a>, All Right Reserved.
+                    &copy; <a class="border-bottom" href="#">Yea-Technical</a>, All Right Reserved.
                 </div>
                 <div class="col-md-6 text-center text-md-end">
                     <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->

@@ -56,7 +56,7 @@
                     <div class="btn-sm-square rounded-circle bg-primary me-2">
                         <small class="fa fa-envelope-open text-white"></small>
                     </div>
-                    <small>                        
+                    <small>
                         <a href="mailto:info@yeaitsolutions.com">
                             info@yeaitsolutions.com
                         </a>    
@@ -88,7 +88,7 @@
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 px-4 px-lg-5">
-        <a href="index.html" class="navbar-brand d-flex align-items-center">
+        <a href="index" class="navbar-brand d-flex align-items-center">
             <img src="img/logo.png" alt="YEA-Technical Logo" class="img-fluid" style="height: 60px;">
         </a>
         <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -96,12 +96,12 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-4 py-lg-0">
-                <a href="index.html" class="nav-item nav-link">Home</a>
-                <a href="about.html" class="nav-item nav-link">About</a>
-                <a href="service.html" class="nav-item nav-link">Service</a>
-                <a href="project.html" class="nav-item nav-link">Project</a>
+                <a href="index" class="nav-item nav-link">Home</a>
+                <a href="about" class="nav-item nav-link">About</a>
+                <a href="service" class="nav-item nav-link active">Service</a>
+                <a href="project" class="nav-item nav-link">Project</a>
                 </div>
-                <a href="contact.html" class="nav-item nav-link active">Contact</a>
+                <a href="contact" class="nav-item nav-link">Contact</a>
             </div>
             <div class="h-100 d-lg-inline-flex align-items-center d-none">
                 <a class="btn btn-square rounded-circle bg-light text-primary me-2" href="https://www.instagram.com/yea_it_technical_solutions?igsh=anE3MW5reTE2bGV1">
@@ -124,14 +124,14 @@
 
 
     <!-- Page Header Start -->
-    <div class="container-fluid page-header py-5">
+    <div class="container-fluid page-header py-5 mb-5">
         <div class="container py-5">
-            <h1 class="display-3 text-white mb-3 animated slideInDown">Contact</h1>
+            <h1 class="display-3 text-white mb-3 animated slideInDown">Services</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
                     <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
-                    <li class="breadcrumb-item text-white active" aria-current="page">Contact</li>
+                    <li class="breadcrumb-item text-white active" aria-current="page">Services</li>
                 </ol>
             </nav>
         </div>
@@ -139,69 +139,62 @@
     <!-- Page Header End -->
 
 
-    <!-- Contact Start -->
-    <div class="container-fluid bg-light overflow-hidden px-lg-0">
-        <div class="container contact px-lg-0">
-            <div class="row g-0 mx-lg-0">
-                <div class="col-lg-6 contact-text py-5 wow fadeIn" data-wow-delay="0.5s">
-                    <div class="p-lg-5 ps-lg-0">
-                        <div class="section-title text-start">
-                            <h1 class="display-5 mb-4">Contact Us</h1>
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center">
+                <div class="bg-primary mb-3 mx-auto" style="width: 60px; height: 2px;"></div>
+                <h1 class="display-5 mb-5">Our Services</h1>
+            </div>
+            <div class="row g-0 service-row">
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="service-item border h-100 p-5">
+                        <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
+                            <img class="img-fluid" src="img/icon/icon-6.png" alt="Icon">
                         </div>
-                        <p class="mb-4">For Orders & Inquiry Please contact us </a>.</p>
-                        <form>
-                            <div class="row g-3">
-                                <div class="col-md-6">
-                                    <div class="form-floating">
-                                        <input type="text" class="form-control" id="name" placeholder="Your Name">
-                                        <label for="name">Your Name</label>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-floating">
-                                        <input type="email" class="form-control" id="email" placeholder="Your Email">
-                                        <label for="email">Your Email</label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-floating">
-                                        <input type="text" class="form-control" id="subject" placeholder="Subject">
-                                        <label for="subject">Subject</label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-floating">
-                                        <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
-                                        <label for="message">Message</label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
-                                </div>
-                            </div>
-                        </form>
+                        <h4 class="mb-3">Commercial CCTV System</h4>
+                        <p class="mb-4">Our Best security camera systems for business</p>
+                        <a class="btn" href=""><i class="fa fa-arrow-right text-white me-3"></i>Read More</a>
                     </div>
                 </div>
-                <div class="col-lg-6 pe-lg-0" style="min-height: 400px;">
-                    <div class="position-relative h-100">
-                        <!-- <iframe class="position-absolute w-100 h-100" style="object-fit: cover;"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd"
-                        frameborder="0" allowfullscreen="" aria-hidden="false"
-                        tabindex="0"></iframe> -->
-                        <iframe class="position-absolute w-100 h-100" style="object-fit: cover;"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607.886313434196!2d55.304279252886786!3d25.274409531665675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f434c21ba5cc5%3A0x4e380400f342b93e!2sAlpha%20Visions%20Security%20Solution%20LLC!5e0!3m2!1sen!2sae!4v1736367638024!5m2!1sen!2sae">
-
-                        </iframe>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="service-item border h-100 p-5">
+                        <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
+                            <img class="img-fluid" src="img/icon/icon-8.png" alt="Icon">
+                        </div>
+                        <h4 class="mb-3">Finger Print Access</h4>
+                        <p class="mb-4">Our best Service In The Fingerprint Terminals integrate multiple verification methods,</p>
+                        <a class="btn" href=""><i class="fa fa-arrow-right text-white me-3"></i>Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="service-item border h-100 p-5">
+                        <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
+                            <img class="img-fluid" src="img/icon/icon-9.png" alt="Icon">
+                        </div>
+                        <h4 class="mb-3">Fire Detection And Safety</h4>
+                        <p class="mb-4">We provide some of the best fire detection and alarm systems</p>
+                        <a class="btn" href=""><i class="fa fa-arrow-right text-white me-3"></i>Read More</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="service-item border h-100 p-5">
+                        <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px;">
+                            <img class="img-fluid" src="img/icon/icon-3.png" alt="Icon">
+                        </div>
+                        <h4 class="mb-3">Smart Home Security</h4>
+                        <p class="mb-4">Protect and secure your home with our collection of Somfy home security systems.</p>
+                        <a class="btn" href=""><i class="fa fa-arrow-right text-white me-3"></i>Read More</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Contact End -->
-
+    <!-- Service End -->
+        
 
     <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-secondary footer py-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container-fluid bg-dark text-secondary footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
@@ -268,7 +261,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a class="border-bottom" href="#">Yea-Technical</a>, All Right Reserved.
+                    &copy; <a class="border-bottom" href="#">Yea IT Solutions</a>, All Right Reserved.
                 </div>
                 <div class="col-md-6 text-center text-md-end">
                     <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
@@ -277,7 +270,6 @@
         </div>
     </div>
     <!-- Copyright End -->
-
     <a href="https://api.whatsapp.com/send?phone=+971561626025&text=yeasolutions" class="float" target="_blank">
         <i class="fab fa-whatsapp wp-button"></i>
     </a>

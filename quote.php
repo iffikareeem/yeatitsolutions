@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>YEA - Technical IT Solutions</title>
+    <title>Securex - CCTV Camera Website Template</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -50,7 +50,7 @@
                     <div class="btn-sm-square rounded-circle bg-primary me-2">
                         <small class="fa fa-map-marker-alt text-white"></small>
                     </div>
-                    <small>Shop No: 209 Settlite Market Deira Dubai</small>
+                    <small>123 Street, New York, USA</small>
                 </div>
                 <div class="h-100 d-inline-flex align-items-center py-3">
                     <div class="btn-sm-square rounded-circle bg-primary me-2">
@@ -68,8 +68,7 @@
                     <div class="btn-sm-square rounded-circle bg-primary me-2">
                         <small class="fa fa-phone-alt text-white"></small>
                     </div>
-                    <small>
-                        <a href="tel:0561626025">
+                    <small><a href="tel:0561626025">
                             +971 56 1626025
                         </a>
                     </small>
@@ -78,7 +77,7 @@
                     <div class="btn-sm-square rounded-circle bg-primary me-2">
                         <small class="far fa-clock text-white"></small>
                     </div>
-                    <small>Monday - Saturday : 9AM - 7PM</small>
+                    <small>Mon - Fri : 9AM - 9PM</small>
                 </div>
             </div>
         </div>
@@ -88,7 +87,7 @@
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0 px-4 px-lg-5">
-        <a href="index.html" class="navbar-brand d-flex align-items-center">
+        <a href="index" class="navbar-brand d-flex align-items-center">
             <img src="img/logo.png" alt="YEA-Technical Logo" class="img-fluid" style="height: 60px;">
         </a>
         <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -96,12 +95,21 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-4 py-lg-0">
-                <a href="index.html" class="nav-item nav-link">Home</a>
-                <a href="about.html" class="nav-item nav-link">About</a>
-                <a href="service.html" class="nav-item nav-link">Service</a>
-                <a href="project.html" class="nav-item nav-link active">Project</a>
+                <a href="index" class="nav-item nav-link">Home</a>
+                <a href="about" class="nav-item nav-link">About</a>
+                <a href="service" class="nav-item nav-link">Service</a>
+                <a href="project" class="nav-item nav-link">Project</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Pages</a>
+                    <div class="dropdown-menu rounded-0 rounded-bottom m-0">
+                        <a href="feature.html" class="dropdown-item">Feature</a>
+                        <a href="quote" class="dropdown-item active">Free Quote</a>
+                        <a href="team.html" class="dropdown-item">Our Team</a>
+                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                        <a href="404.html" class="dropdown-item">404 Page</a>
+                    </div>
                 </div>
-                <a href="contact.html" class="nav-item nav-link">Contact</a>
+                <a href="contact" class="nav-item nav-link">Contact</a>
             </div>
             <div class="h-100 d-lg-inline-flex align-items-center d-none">
                 <a class="btn btn-square rounded-circle bg-light text-primary me-2" href="https://www.instagram.com/yea_it_technical_solutions?igsh=anE3MW5reTE2bGV1">
@@ -124,14 +132,14 @@
 
 
     <!-- Page Header Start -->
-    <div class="container-fluid page-header py-5 mb-5">
+    <div class="container-fluid page-header py-5">
         <div class="container py-5">
-            <h1 class="display-3 text-white mb-3 animated slideInDown">Projects</h1>
+            <h1 class="display-3 text-white mb-3 animated slideInDown">Free Quote</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
                     <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
-                    <li class="breadcrumb-item text-white active" aria-current="page">Projects</li>
+                    <li class="breadcrumb-item text-white active" aria-current="page">Free Quote</li>
                 </ol>
             </nav>
         </div>
@@ -139,138 +147,62 @@
     <!-- Page Header End -->
 
 
-    <!-- Projects Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <div class="bg-primary mb-3 mx-auto" style="width: 60px; height: 2px;"></div>
-                <h1 class="display-5 mb-5">Our Projects</h1>
-            </div>
-            <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.3s">
-                <div class="col-12 text-center">
-                    <ul class="list-inline mb-5" id="portfolio-flters">
-                        <li class="mx-2 active" data-filter="*">All</li>
-                        <li class="mx-2" data-filter=".first">Complete Projects</li>
-                        <li class="mx-2" data-filter=".second">Ongoing Projects</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row g-4 portfolio-container">
-                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="portfolio-inner">
-                        <img class="img-fluid w-100" src="img/portfolio-1.jpg" alt="">
-                        <div class="text-center p-4">
-                            <p class="text-primary mb-2">Business Security</p>
-                            <h5 class="lh-base mb-0">Smart CCTV Security Systems That Fits Your Business</h5>
-                        </div>
-                        <div class="portfolio-text text-center bg-white p-4">
-                            <p class="text-primary mb-2">Business Security</p>
-                            <h5 class="lh-base mb-3">Smart CCTV Security Systems That Fits Your Business</h5>
-                            <div class="d-flex justify-content-center">
-                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="img/portfolio-1.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
+    <!-- Quote Start -->
+    <div class="container-fluid bg-light overflow-hidden px-lg-0">
+        <div class="container quote px-lg-0">
+            <div class="row g-0 mx-lg-0">
+                <div class="col-lg-6 ps-lg-0" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/quote.jpg" style="object-fit: cover;" alt="">
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="portfolio-inner">
-                        <img class="img-fluid w-100" src="img/portfolio-2.jpg" alt="">
-                        <div class="text-center p-4">
-                            <p class="text-primary mb-2">Fire Detection</p>
-                            <h5 class="lh-base mb-0">Smart CCTV Security Systems That Fits Your Business</h5>
-                        </div>
-                        <div class="portfolio-text text-center bg-white p-4">
-                            <p class="text-primary mb-2">Fire Detection</p>
-                            <h5 class="lh-base mb-3">Smart CCTV Security Systems That Fits Your Business</h5>
-                            <div class="d-flex justify-content-center">
-                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="img/portfolio-2.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
+                <div class="col-lg-6 quote-text py-5 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="p-lg-5 pe-lg-0">
+                        <div class="bg-primary mb-3" style="width: 60px; height: 2px;"></div>
+                        <h1 class="display-5 mb-5">Free Quote</h1>
+                        <p class="mb-4 pb-2">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet</p>
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control border-0" placeholder="Your Name" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="email" class="form-control border-0" placeholder="Your Email" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control border-0" placeholder="Your Mobile" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <select class="form-select border-0" style="height: 55px;">
+                                        <option selected>Select A Service</option>
+                                        <option value="1">Service 1</option>
+                                        <option value="2">Service 2</option>
+                                        <option value="3">Service 3</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="form-control border-0" placeholder="Special Note"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary w-100 py-3" type="submit">Get A Free Quote</button>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="portfolio-inner">
-                        <img class="img-fluid w-100" src="img/portfolio-3.jpg" alt="">
-                        <div class="text-center p-4">
-                            <p class="text-primary mb-2">Access Control</p>
-                            <h5 class="lh-base mb-0">Smart CCTV Security Systems That Fits Your Business</h5>
-                        </div>
-                        <div class="portfolio-text text-center bg-white p-4">
-                            <p class="text-primary mb-2">Access Control</p>
-                            <h5 class="lh-base mb-3">Smart CCTV Security Systems That Fits Your Business</h5>
-                            <div class="d-flex justify-content-center">
-                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="img/portfolio-3.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="portfolio-inner">
-                        <img class="img-fluid w-100" src="img/portfolio-4.jpg" alt="">
-                        <div class="text-center p-4">
-                            <p class="text-primary mb-2">Alarm Systems</p>
-                            <h5 class="lh-base mb-0">Smart CCTV Security Systems That Fits Your Business</h5>
-                        </div>
-                        <div class="portfolio-text text-center bg-white p-4">
-                            <p class="text-primary mb-2">Alarm Systems</p>
-                            <h5 class="lh-base mb-3">Smart CCTV Security Systems That Fits Your Business</h5>
-                            <div class="d-flex justify-content-center">
-                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="img/portfolio-4.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item first wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="portfolio-inner">
-                        <img class="img-fluid w-100" src="img/portfolio-5.jpg" alt="">
-                        <div class="text-center p-4">
-                            <p class="text-primary mb-2">CCTV & Video</p>
-                            <h5 class="lh-base mb-0">Smart CCTV Security Systems That Fits Your Business</h5>
-                        </div>
-                        <div class="portfolio-text text-center bg-white p-4">
-                            <p class="text-primary mb-2">CCTV & Video</p>
-                            <h5 class="lh-base mb-3">Smart CCTV Security Systems That Fits Your Business</h5>
-                            <div class="d-flex justify-content-center">
-                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="img/portfolio-5.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 portfolio-item second wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="portfolio-inner">
-                        <img class="img-fluid w-100" src="img/portfolio-6.jpg" alt="">
-                        <div class="text-center p-4">
-                            <p class="text-primary mb-2">Smart Home</p>
-                            <h5 class="lh-base mb-0">Smart CCTV Security Systems That Fits Your Business</h5>
-                        </div>
-                        <div class="portfolio-text text-center bg-white p-4">
-                            <p class="text-primary mb-2">Smart Home</p>
-                            <h5 class="lh-base mb-3">Smart CCTV Security Systems That Fits Your Business</h5>
-                            <div class="d-flex justify-content-center">
-                                <a class="btn btn-square btn-primary rounded-circle mx-1" href="img/portfolio-6.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                                <a class="btn btn-square btn-primary rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Projects End -->
+    <!-- Quote End -->
         
 
     <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-secondary footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container-fluid bg-dark text-secondary footer py-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-light mb-4">Address</h5>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Shop No: 209 Settlite Market Deira Dubai</p>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>
                         <a href="tel:0561626025">
                             +971 56 1626025
@@ -315,7 +247,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-light mb-4">Newsletter</h5>
-                    <p>For Newsletter please sign up here</p>
+                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
                     <div class="position-relative w-100">
                         <input class="form-control bg-transparent border-secondary w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
                         <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
@@ -332,7 +264,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a class="border-bottom" href="#">Yea-Technical</a>, All Right Reserved.
+                    &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved.
                 </div>
                 <div class="col-md-6 text-center text-md-end">
                     <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
