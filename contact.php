@@ -149,17 +149,17 @@
                             <h1 class="display-5 mb-4">Contact Us</h1>
                         </div>
                         <p class="mb-4">For Orders & Inquiry Please contact us </a>.</p>
-                        <form action="<?php  echo $_SERVER["PHP_SELF"]?> " method= "POST">
+                        <form action="email.php" method= "POST">
                             <div class="row g-3">
                                 <div class="col-md-6">
                                     <div class="form-floating">
-                                        <input type="text" class="form-control" id="name" placeholder="Your Name" name="name">
+                                        <input type="text" class="form-control" id="name" placeholder="Your Name"  name="name" required>
                                         <label for="name">Your Name</label>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-floating">
-                                        <input type="email" class="form-control" id="email" placeholder="Your Email" name="email">
+                                        <input type="email" class="form-control" id="email" placeholder="Your Email" name="email" required>
                                         <label for="email">Your Email</label>
                                     </div>
                                 </div>
@@ -299,22 +299,7 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-    <!-- PHP mail function -->
-     <?php
 
-     if(isset($subject = $_POST['submit'];)){
-        $to = "raza.haider@yeaitsolutions.com,razaarbani3@gmail.com";
-        $subject = $_POST['subject'];
-        $message = $_POST['name'] . "<br>";
-        $message += $_POST['message'];
-        $from = $_POST['email'];
-        $headers = "FROM : $form";
-
-        mail($to,$subject,$message,$headers);
-
-        echo "Mail sent successfully";
-     }
-     ?>
 </body>
 
 </html>
